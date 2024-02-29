@@ -1,0 +1,131 @@
+body {
+    background-color: beige;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 18px 60px;
+    box-shadow: 0 5px 10px rgba(0,0,2);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+    margin: 0px 10px;
+    padding: 0px 2px;
+}
+
+.navbar ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.navbar ul li a:hover {
+    color:blue;
+}
+
+.contact {
+    background-color: brown;
+    color: black;
+    font-size: 18px;
+    border:none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: burlywood;
+}
+
+.navbar .logo {
+    color:black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    transform: scale(2,2);
+}
+
+.tab {
+    margin:50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.tab1 {
+    margin: 50;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.form {
+    margin: 10;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    margin: 10;
+}
+
+.button:hover {
+    background-color: burlywood;
+}
+
+.bio {
+    padding: 50;
+
+}
+
+.final {
+    font-size: xx-large;
+    margin: 100;
+    font-family: cursive;
+}
+
+h1 {
+    margin: 25;
+    background-color: goldenrod;
+    font-family: fantasy;
+    height: 50;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    margin: 10;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.biography {
+    background-color: moccasin;
+}
+
+li {
+    margin: 10;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
